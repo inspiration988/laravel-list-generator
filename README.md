@@ -21,9 +21,9 @@
 
 ## install
 
-Clone from https://github.com/inspiration988/laravel-list-generator
+Clone from https://github.com/inspiration988/laravel-list-generator.git
 
-`git clone https://github.com/inspiration988/laravel-list-generator .`
+`git clone https://github.com/inspiration988/laravel-list-generator.git`
 
 Run composer install
 
@@ -42,10 +42,11 @@ In root directory run :
 
 
 
-## Api
+## Apis
 
-- list/generate POST : http://127.0.0.1:8000/api/v1/list/generate
-`{
+- list/generator POST : http://127.0.0.1:8000/api/v1/register
+`
+{
     "list_name" : "customerList" ,
     "columns" :[ 
         {
@@ -95,8 +96,5 @@ In root directory run :
         }
 
     
-}
-    
-   
-`
+}`
 
