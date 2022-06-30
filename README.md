@@ -51,13 +51,11 @@ In root directory run :
         {
         "type" : "text",
         "name" : "name" ,
-        "caption" : "Customer Name"
-        
+        "caption" : "Customer Name"       
         } , 
         {
          "type" : "text",
          "name" : "description" 
-       
         },
          {
          "type" : "integer",
@@ -70,7 +68,6 @@ In root directory run :
          "width" : 50 ,
 	 "searchable" : 1
         }
-    
     ],
     "conditions" : {
 	"created_at" :
@@ -79,7 +76,6 @@ In root directory run :
         },
         "name" : 
             {"like" : "M"}
-    
         ,
  	"id" : 
             {"=" : "15"}
