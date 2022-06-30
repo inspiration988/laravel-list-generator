@@ -45,7 +45,7 @@ In root directory run :
 ## Apis
 
 - list/generator POST : http://127.0.0.1:8000/api/v1/register
-`{
+```{
     "list_name" : "customerList" ,
     "columns" :[ 
         {
@@ -91,5 +91,6 @@ In root directory run :
         }
 
     
-}`
+}
+```
 
